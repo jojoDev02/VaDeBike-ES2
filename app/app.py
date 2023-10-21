@@ -7,4 +7,4 @@ def index():
     return '<h1>Hello, World!</h1>', 200
 
 if __name__ == '__main__':
-    app.run(port=8080, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
